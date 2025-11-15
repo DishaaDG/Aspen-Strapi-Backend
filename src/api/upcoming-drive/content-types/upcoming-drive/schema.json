@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "upcoming_drives",
+  "info": {
+    "singularName": "upcoming-drive",
+    "pluralName": "upcoming-drives",
+    "displayName": "Upcoming Drives"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Dates": {
+      "type": "string"
+    },
+    "SpotsLeft": {
+      "type": "integer"
+    }
+  }
+}
